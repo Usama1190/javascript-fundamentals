@@ -1,0 +1,94 @@
+<!-- March 27, 24 Assignment -->
+
+<!-- Every time the user clicks any button on the keyboard, he should see an 
+    alert with an increasing number until the pages load.
+e.g. first time 1, on keypress second time 2, then 3, if pages load, start with 0.
+
+hint: on page load js starts again with 0 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onkeypress="counterIncrement()" onload="resetCounter()">
+    <p>This is a paragraph.</p>
+
+    <script>
+        let counter = 0;
+
+        function counterIncrement() {
+            counter++;
+            alert(`You press key ${counter} times`);
+        }
+
+        function resetCounter() {
+            counter = 0;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+<!-- March 26, 24 Assignment -->
+<!-- Alert Random Number, every time the user presses any key on the keyboard -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onkeypress="alert('You done it, very well.')">
+    <h2>Press Any key of the keyboard.</h2>
+</body>
+</html -->
+
+
+
+
+<!-- March 24, 24 Assignment -->
+<!-- Alert -->
+<!-- Create 8 boxes containing separate titles for each box, if the user click 
+    on any of the divs, alert shows up with the box title -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box box-1" onclick="alert('AntiqueWhite')">AntiqueWhite</div>
+    <div class="box box-2" onclick="alert('BlueViolet')">BlueViolet</div>
+    <div class="box box-3" onclick="alert('Crimson')">Crimson</div>
+    <div class="box box-4" onclick="alert('DarkCyan')">DarkCyan</div>
+    <div class="box box-5" onclick="alert('DarkOliveGreen')">DarkOliveGreen</div>
+    <div class="box box-6" onclick="alert('DarkSlateGrey')">DarkSlateGrey</div>
+    <div class="box box-7" onclick="alert('Linen')">Linen</div>
+    <div class="box box-8" onclick="alert('Sienna')">Sienna</div>
+</body>
+</html -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+</body>
+</html -->
