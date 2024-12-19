@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>See the result in console log.</p>
+    <script>
+        var nameList = [];
+        var isSignup = prompt("Sign up", "Yes / No");
+
+        if(isSignup == "Yes") {
+            var userName = prompt("Enter your name: ");
+            nameList.push(userName);
+            console.log(nameList);
+        }
+        else {
+            alert("Please sign up.");
+            console.log(nameList);
+        }
+    </script>
+</body>
+</html>
